@@ -1,0 +1,559 @@
+\version "2.18.2"
+\layout { \context {
+ \Score
+ \remove "Bar_number_engraver"
+}}
+\paper { indent = 0\cm }
+\markup { \fill-line { "C" } }
+one       = c'
+three     = d'
+four      = ees'
+five      = e'
+six       = f'
+seven     = ges'
+eight     = g'
+nine      = gis'
+ten       = a'
+eleven    = bes'
+twelve    = b'
+fifteen   = d''
+eigteen   = f''
+twentytoo = a''
+{
+ <\one \five \eight                                      >1_"C"
+ <\one \four \eight                                      >1_"Cm"
+ <\one \five \eight \eleven                              >1_"C7"
+ <\one \four \eight \eleven                              >1_"Cm7"
+ <\one \five \eight \twelve                              >1_"Cmaj7"
+ <\one \four \eight \twelve                              >1_"CmM7"
+ <\one \five \eight \ten                                 >1_"C6"
+ <\one \four \eight \ten                                 >1_"Cm6"
+ <\one \five \eight \ten \fifteen                        >1_"C6/9"
+ <\one \eight                                            >1_"C5"
+ <\one \five \eight \eleven \fifteen                     >1_"C9"
+ <\one \four \eight \eleven \fifteen                     >1_"Cm9"
+ <\one \five \eight \twelve \fifteen                     >1_"Cmaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"C11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Cm11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"C13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Cm13"
+ <\one \five \eight \fifteen                             >1_"Cadd9"
+ <\one \three \five \eight                               >1_"Cadd2"
+ <\one \five \seven \eleven                              >1_"C7-5"
+ <\one \five gis' \eleven                                >1_"C7+5"
+ <\one \six \eight                                       >1_"Csus4"
+ <\one \three \eight                                     >1_"Csus2"
+ <\one \four \seven                                      >1_"Cdim"
+ <\one \four \seven \ten                                 >1_"Cdim7"
+ <\one \four \seven \eleven                              >1_"Cm7b5"
+ <\one \five \nine                                       >1_"Caug"
+ <\one \five \nine \eleven                               >1_"Caug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "C#" } }
+one       = cis'
+three     = dis'
+four      = e'
+five      = f'
+six       = fis'
+seven     = g'
+eight     = gis'
+nine      = a'
+ten       = ais'
+eleven    = b'
+twelve    = c''
+fifteen   = dis''
+eigteen   = fis''
+twentytoo = ais''
+{
+ <\one \five \eight                                      >1_"C#"
+ <\one \four \eight                                      >1_"C#m"
+ <\one \five \eight \eleven                              >1_"C#7"
+ <\one \four \eight \eleven                              >1_"C#m7"
+ <\one \five \eight \twelve                              >1_"C#maj7"
+ <\one \four \eight \twelve                              >1_"C#mM7"
+ <\one \five \eight \ten                                 >1_"C#6"
+ <\one \four \eight \ten                                 >1_"C#m6"
+ <\one \five \eight \ten \fifteen                        >1_"C#6/9"
+ <\one \eight                                            >1_"C#5"
+ <\one \five \eight \eleven \fifteen                     >1_"C#9"
+ <\one \four \eight \eleven \fifteen                     >1_"C#m9"
+ <\one \five \eight \twelve \fifteen                     >1_"C#maj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"C#11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"C#m11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"C#13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"C#m13"
+ <\one \five \eight \fifteen                             >1_"C#add9"
+ <\one \three \five \eight                               >1_"C#add2"
+ <\one \five \seven \eleven                              >1_"C#7-5"
+ <\one \five gis' \eleven                                >1_"C#7+5"
+ <\one \six \eight                                       >1_"C#sus4"
+ <\one \three \eight                                     >1_"C#sus2"
+ <\one \four \seven                                      >1_"C#dim"
+ <\one \four \seven \ten                                 >1_"C#dim7"
+ <\one \four \seven \eleven                              >1_"C#m7b5"
+ <\one \five \nine                                       >1_"C#aug"
+ <\one \five \nine \eleven                               >1_"C#aug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "D" } }
+one       = d'
+three     = e'
+four      = f'
+five      = fis'
+six       = g'
+seven     = gis'
+eight     = a'
+nine      = ais'
+ten       = b'
+eleven    = c''
+twelve    = cis''
+fifteen   = e''
+eigteen   = g''
+twentytoo = b''
+{
+ <\one \five \eight                                      >1_"D"
+ <\one \four \eight                                      >1_"Dm"
+ <\one \five \eight \eleven                              >1_"D7"
+ <\one \four \eight \eleven                              >1_"Dm7"
+ <\one \five \eight \twelve                              >1_"Dmaj7"
+ <\one \four \eight \twelve                              >1_"DmM7"
+ <\one \five \eight \ten                                 >1_"D6"
+ <\one \four \eight \ten                                 >1_"Dm6"
+ <\one \five \eight \ten \fifteen                        >1_"D6/9"
+ <\one \eight                                            >1_"D5"
+ <\one \five \eight \eleven \fifteen                     >1_"D9"
+ <\one \four \eight \eleven \fifteen                     >1_"Dm9"
+ <\one \five \eight \twelve \fifteen                     >1_"Dmaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"D11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Dm11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"D13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Dm13"
+ <\one \five \eight \fifteen                             >1_"Dadd9"
+ <\one \three \five \eight                               >1_"Dadd2"
+ <\one \five \seven \eleven                              >1_"D7-5"
+ <\one \five gis' \eleven                                >1_"D7+5"
+ <\one \six \eight                                       >1_"Dsus4"
+ <\one \three \eight                                     >1_"Dsus2"
+ <\one \four \seven                                      >1_"Ddim"
+ <\one \four \seven \ten                                 >1_"Ddim7"
+ <\one \four \seven \eleven                              >1_"Dm7b5"
+ <\one \five \nine                                       >1_"Daug"
+ <\one \five \nine \eleven                               >1_"Daug7"
+ \bar "||" \break
+}
+\pageBreak
+\markup { \fill-line { "D#" } }
+one       = dis'
+three     = f'
+four      = fis'
+five      = g'
+six       = gis'
+seven     = a'
+eight     = ais'
+nine      = b'
+ten       = c''
+eleven    = cis''
+twelve    = d''
+fifteen   = f''
+eigteen   = gis''
+twentytoo = c'''
+{
+ <\one \five \eight                                      >1_"D#"
+ <\one \four \eight                                      >1_"D#m"
+ <\one \five \eight \eleven                              >1_"D#7"
+ <\one \four \eight \eleven                              >1_"D#m7"
+ <\one \five \eight \twelve                              >1_"D#maj7"
+ <\one \four \eight \twelve                              >1_"D#mM7"
+ <\one \five \eight \ten                                 >1_"D#6"
+ <\one \four \eight \ten                                 >1_"D#m6"
+ <\one \five \eight \ten \fifteen                        >1_"D#6/9"
+ <\one \eight                                            >1_"D#5"
+ <\one \five \eight \eleven \fifteen                     >1_"D#9"
+ <\one \four \eight \eleven \fifteen                     >1_"D#m9"
+ <\one \five \eight \twelve \fifteen                     >1_"D#maj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"D#11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"D#m11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"D#13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"D#m13"
+ <\one \five \eight \fifteen                             >1_"D#add9"
+ <\one \three \five \eight                               >1_"D#add2"
+ <\one \five \seven \eleven                              >1_"D#7-5"
+ <\one \five gis' \eleven                                >1_"D#7+5"
+ <\one \six \eight                                       >1_"D#sus4"
+ <\one \three \eight                                     >1_"D#sus2"
+ <\one \four \seven                                      >1_"D#dim"
+ <\one \four \seven \ten                                 >1_"D#dim7"
+ <\one \four \seven \eleven                              >1_"D#m7b5"
+ <\one \five \nine                                       >1_"D#aug"
+ <\one \five \nine \eleven                               >1_"D#aug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "E" } }
+one       = e'
+three     = fis'
+four      = g'
+five      = gis'
+six       = a'
+seven     = ais'
+eight     = b'
+nine      = c''
+ten       = cis''
+eleven    = d''
+twelve    = dis''
+fifteen   = fis''
+eigteen   = a''
+twentytoo = cis'''
+{
+ <\one \five \eight                                      >1_"E"
+ <\one \four \eight                                      >1_"Em"
+ <\one \five \eight \eleven                              >1_"E7"
+ <\one \four \eight \eleven                              >1_"Em7"
+ <\one \five \eight \twelve                              >1_"Emaj7"
+ <\one \four \eight \twelve                              >1_"EmM7"
+ <\one \five \eight \ten                                 >1_"E6"
+ <\one \four \eight \ten                                 >1_"Em6"
+ <\one \five \eight \ten \fifteen                        >1_"E6/9"
+ <\one \eight                                            >1_"E5"
+ <\one \five \eight \eleven \fifteen                     >1_"E9"
+ <\one \four \eight \eleven \fifteen                     >1_"Em9"
+ <\one \five \eight \twelve \fifteen                     >1_"Emaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"E11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Em11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"E13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Em13"
+ <\one \five \eight \fifteen                             >1_"Eadd9"
+ <\one \three \five \eight                               >1_"Eadd2"
+ <\one \five \seven \eleven                              >1_"E7-5"
+ <\one \five gis' \eleven                                >1_"E7+5"
+ <\one \six \eight                                       >1_"Esus4"
+ <\one \three \eight                                     >1_"Esus2"
+ <\one \four \seven                                      >1_"Edim"
+ <\one \four \seven \ten                                 >1_"Edim7"
+ <\one \four \seven \eleven                              >1_"Em7b5"
+ <\one \five \nine                                       >1_"Eaug"
+ <\one \five \nine \eleven                               >1_"Eaug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "F" } }
+one       = f'
+three     = g'
+four      = gis'
+five      = a'
+six       = ais'
+seven     = b'
+eight     = c''
+nine      = cis''
+ten       = d''
+eleven    = dis''
+twelve    = e''
+fifteen   = g''
+eigteen   = ais''
+twentytoo = d'''
+{
+ <\one \five \eight                                      >1_"F"
+ <\one \four \eight                                      >1_"Fm"
+ <\one \five \eight \eleven                              >1_"F7"
+ <\one \four \eight \eleven                              >1_"Fm7"
+ <\one \five \eight \twelve                              >1_"Fmaj7"
+ <\one \four \eight \twelve                              >1_"FmM7"
+ <\one \five \eight \ten                                 >1_"F6"
+ <\one \four \eight \ten                                 >1_"Fm6"
+ <\one \five \eight \ten \fifteen                        >1_"F6/9"
+ <\one \eight                                            >1_"F5"
+ <\one \five \eight \eleven \fifteen                     >1_"F9"
+ <\one \four \eight \eleven \fifteen                     >1_"Fm9"
+ <\one \five \eight \twelve \fifteen                     >1_"Fmaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"F11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Fm11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"F13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Fm13"
+ <\one \five \eight \fifteen                             >1_"Fadd9"
+ <\one \three \five \eight                               >1_"Fadd2"
+ <\one \five \seven \eleven                              >1_"F7-5"
+ <\one \five gis' \eleven                                >1_"F7+5"
+ <\one \six \eight                                       >1_"Fsus4"
+ <\one \three \eight                                     >1_"Fsus2"
+ <\one \four \seven                                      >1_"Fdim"
+ <\one \four \seven \ten                                 >1_"Fdim7"
+ <\one \four \seven \eleven                              >1_"Fm7b5"
+ <\one \five \nine                                       >1_"Faug"
+ <\one \five \nine \eleven                               >1_"Faug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "F#" } }
+one       = fis'
+three     = gis'
+four      = a'
+five      = ais'
+six       = b'
+seven     = c''
+eight     = cis''
+nine      = d''
+ten       = dis''
+eleven    = e''
+twelve    = f''
+fifteen   = gis''
+eigteen   = b''
+twentytoo = dis'''
+{
+ <\one \five \eight                                      >1_"F#"
+ <\one \four \eight                                      >1_"F#m"
+ <\one \five \eight \eleven                              >1_"F#7"
+ <\one \four \eight \eleven                              >1_"F#m7"
+ <\one \five \eight \twelve                              >1_"F#maj7"
+ <\one \four \eight \twelve                              >1_"F#mM7"
+ <\one \five \eight \ten                                 >1_"F#6"
+ <\one \four \eight \ten                                 >1_"F#m6"
+ <\one \five \eight \ten \fifteen                        >1_"F#6/9"
+ <\one \eight                                            >1_"F#5"
+ <\one \five \eight \eleven \fifteen                     >1_"F#9"
+ <\one \four \eight \eleven \fifteen                     >1_"F#m9"
+ <\one \five \eight \twelve \fifteen                     >1_"F#maj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"F#11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"F#m11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"F#13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"F#m13"
+ <\one \five \eight \fifteen                             >1_"F#add9"
+ <\one \three \five \eight                               >1_"F#add2"
+ <\one \five \seven \eleven                              >1_"F#7-5"
+ <\one \five gis' \eleven                                >1_"F#7+5"
+ <\one \six \eight                                       >1_"F#sus4"
+ <\one \three \eight                                     >1_"F#sus2"
+ <\one \four \seven                                      >1_"F#dim"
+ <\one \four \seven \ten                                 >1_"F#dim7"
+ <\one \four \seven \eleven                              >1_"F#m7b5"
+ <\one \five \nine                                       >1_"F#aug"
+ <\one \five \nine \eleven                               >1_"F#aug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "G" } }
+one       = g'
+three     = a'
+four      = ais'
+five      = b'
+six       = c''
+seven     = cis''
+eight     = d''
+nine      = dis''
+ten       = e''
+eleven    = f''
+twelve    = fis''
+fifteen   = a''
+eigteen   = c'''
+twentytoo = e'''
+{
+ <\one \five \eight                                      >1_"G"
+ <\one \four \eight                                      >1_"Gm"
+ <\one \five \eight \eleven                              >1_"G7"
+ <\one \four \eight \eleven                              >1_"Gm7"
+ <\one \five \eight \twelve                              >1_"Gmaj7"
+ <\one \four \eight \twelve                              >1_"GmM7"
+ <\one \five \eight \ten                                 >1_"G6"
+ <\one \four \eight \ten                                 >1_"Gm6"
+ <\one \five \eight \ten \fifteen                        >1_"G6/9"
+ <\one \eight                                            >1_"G5"
+ <\one \five \eight \eleven \fifteen                     >1_"G9"
+ <\one \four \eight \eleven \fifteen                     >1_"Gm9"
+ <\one \five \eight \twelve \fifteen                     >1_"Gmaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"G11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Gm11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"G13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Gm13"
+ <\one \five \eight \fifteen                             >1_"Gadd9"
+ <\one \three \five \eight                               >1_"Gadd2"
+ <\one \five \seven \eleven                              >1_"G7-5"
+ <\one \five gis' \eleven                                >1_"G7+5"
+ <\one \six \eight                                       >1_"Gsus4"
+ <\one \three \eight                                     >1_"Gsus2"
+ <\one \four \seven                                      >1_"Gdim"
+ <\one \four \seven \ten                                 >1_"Gdim7"
+ <\one \four \seven \eleven                              >1_"Gm7b5"
+ <\one \five \nine                                       >1_"Gaug"
+ <\one \five \nine \eleven                               >1_"Gaug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "G#" } }
+one       = gis'
+three     = ais'
+four      = b'
+five      = c''
+six       = cis''
+seven     = d''
+eight     = dis''
+nine      = e''
+ten       = f''
+eleven    = fis''
+twelve    = g''
+fifteen   = ais''
+eigteen   = cis'''
+twentytoo = f'''
+{
+ <\one \five \eight                                      >1_"G#"
+ <\one \four \eight                                      >1_"G#m"
+ <\one \five \eight \eleven                              >1_"G#7"
+ <\one \four \eight \eleven                              >1_"G#m7"
+ <\one \five \eight \twelve                              >1_"G#maj7"
+ <\one \four \eight \twelve                              >1_"G#mM7"
+ <\one \five \eight \ten                                 >1_"G#6"
+ <\one \four \eight \ten                                 >1_"G#m6"
+ <\one \five \eight \ten \fifteen                        >1_"G#6/9"
+ <\one \eight                                            >1_"G#5"
+ <\one \five \eight \eleven \fifteen                     >1_"G#9"
+ <\one \four \eight \eleven \fifteen                     >1_"G#m9"
+ <\one \five \eight \twelve \fifteen                     >1_"G#maj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"G#11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"G#m11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"G#13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"G#m13"
+ <\one \five \eight \fifteen                             >1_"G#add9"
+ <\one \three \five \eight                               >1_"G#add2"
+ <\one \five \seven \eleven                              >1_"G#7-5"
+ <\one \five gis' \eleven                                >1_"G#7+5"
+ <\one \six \eight                                       >1_"G#sus4"
+ <\one \three \eight                                     >1_"G#sus2"
+ <\one \four \seven                                      >1_"G#dim"
+ <\one \four \seven \ten                                 >1_"G#dim7"
+ <\one \four \seven \eleven                              >1_"G#m7b5"
+ <\one \five \nine                                       >1_"G#aug"
+ <\one \five \nine \eleven                               >1_"G#aug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "A" } }
+one       = a'
+three     = b'
+four      = c''
+five      = cis''
+six       = d''
+seven     = dis''
+eight     = e''
+nine      = f''
+ten       = fis''
+eleven    = g''
+twelve    = gis''
+fifteen   = b''
+eigteen   = d'''
+twentytoo = fis'''
+{
+ <\one \five \eight                                      >1_"A"
+ <\one \four \eight                                      >1_"Am"
+ <\one \five \eight \eleven                              >1_"A7"
+ <\one \four \eight \eleven                              >1_"Am7"
+ <\one \five \eight \twelve                              >1_"Amaj7"
+ <\one \four \eight \twelve                              >1_"AmM7"
+ <\one \five \eight \ten                                 >1_"A6"
+ <\one \four \eight \ten                                 >1_"Am6"
+ <\one \five \eight \ten \fifteen                        >1_"A6/9"
+ <\one \eight                                            >1_"A5"
+ <\one \five \eight \eleven \fifteen                     >1_"A9"
+ <\one \four \eight \eleven \fifteen                     >1_"Am9"
+ <\one \five \eight \twelve \fifteen                     >1_"Amaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"A11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Am11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"A13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Am13"
+ <\one \five \eight \fifteen                             >1_"Aadd9"
+ <\one \three \five \eight                               >1_"Aadd2"
+ <\one \five \seven \eleven                              >1_"A7-5"
+ <\one \five gis' \eleven                                >1_"A7+5"
+ <\one \six \eight                                       >1_"Asus4"
+ <\one \three \eight                                     >1_"Asus2"
+ <\one \four \seven                                      >1_"Adim"
+ <\one \four \seven \ten                                 >1_"Adim7"
+ <\one \four \seven \eleven                              >1_"Am7b5"
+ <\one \five \nine                                       >1_"Aaug"
+ <\one \five \nine \eleven                               >1_"Aaug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "A#" } }
+one       = ais'
+three     = c''
+four      = cis''
+five      = d''
+six       = dis''
+seven     = e''
+eight     = f''
+nine      = fis''
+ten       = g''
+eleven    = gis''
+twelve    = a''
+fifteen   = c'''
+eigteen   = dis'''
+twentytoo = g'''
+{
+ <\one \five \eight                                      >1_"A#"
+ <\one \four \eight                                      >1_"A#m"
+ <\one \five \eight \eleven                              >1_"A#7"
+ <\one \four \eight \eleven                              >1_"A#m7"
+ <\one \five \eight \twelve                              >1_"A#maj7"
+ <\one \four \eight \twelve                              >1_"A#mM7"
+ <\one \five \eight \ten                                 >1_"A#6"
+ <\one \four \eight \ten                                 >1_"A#m6"
+ <\one \five \eight \ten \fifteen                        >1_"A#6/9"
+ <\one \eight                                            >1_"A#5"
+ <\one \five \eight \eleven \fifteen                     >1_"A#9"
+ <\one \four \eight \eleven \fifteen                     >1_"A#m9"
+ <\one \five \eight \twelve \fifteen                     >1_"A#maj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"A#11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"A#m11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"A#13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"A#m13"
+ <\one \five \eight \fifteen                             >1_"A#add9"
+ <\one \three \five \eight                               >1_"A#add2"
+ <\one \five \seven \eleven                              >1_"A#7-5"
+ <\one \five gis' \eleven                                >1_"A#7+5"
+ <\one \six \eight                                       >1_"A#sus4"
+ <\one \three \eight                                     >1_"A#sus2"
+ <\one \four \seven                                      >1_"A#dim"
+ <\one \four \seven \ten                                 >1_"A#dim7"
+ <\one \four \seven \eleven                              >1_"A#m7b5"
+ <\one \five \nine                                       >1_"A#aug"
+ <\one \five \nine \eleven                               >1_"A#aug7"
+ \bar "||" \break
+}
+\markup { \fill-line { "B" } }
+one       = b'
+three     = cis''
+four      = d''
+five      = dis''
+six       = e''
+seven     = f''
+eight     = fis''
+nine      = g''
+ten       = gis''
+eleven    = a''
+twelve    = ais''
+fifteen   = cis'''
+eigteen   = e'''
+twentytoo = gis'''
+{
+ <\one \five \eight                                      >1_"B"
+ <\one \four \eight                                      >1_"Bm"
+ <\one \five \eight \eleven                              >1_"B7"
+ <\one \four \eight \eleven                              >1_"Bm7"
+ <\one \five \eight \twelve                              >1_"Bmaj7"
+ <\one \four \eight \twelve                              >1_"BmM7"
+ <\one \five \eight \ten                                 >1_"B6"
+ <\one \four \eight \ten                                 >1_"Bm6"
+ <\one \five \eight \ten \fifteen                        >1_"B6/9"
+ <\one \eight                                            >1_"B5"
+ <\one \five \eight \eleven \fifteen                     >1_"B9"
+ <\one \four \eight \eleven \fifteen                     >1_"Bm9"
+ <\one \five \eight \twelve \fifteen                     >1_"Bmaj9"
+ <\one \five \eight \eleven \fifteen \eigteen            >1_"B11"
+ <\one \four \eight \eleven \fifteen \eigteen            >1_"Bm11"
+ <\one \five \eight \eleven \fifteen \eigteen \twentytoo >1_"B13"
+ <\one \four \eight \eleven \fifteen \eigteen \twentytoo >1_"Bm13"
+ <\one \five \eight \fifteen                             >1_"Badd9"
+ <\one \three \five \eight                               >1_"Badd2"
+ <\one \five \seven \eleven                              >1_"B7-5"
+ <\one \five gis' \eleven                                >1_"B7+5"
+ <\one \six \eight                                       >1_"Bsus4"
+ <\one \three \eight                                     >1_"Bsus2"
+ <\one \four \seven                                      >1_"Bdim"
+ <\one \four \seven \ten                                 >1_"Bdim7"
+ <\one \four \seven \eleven                              >1_"Bm7b5"
+ <\one \five \nine                                       >1_"Baug"
+ <\one \five \nine \eleven                               >1_"Baug7"
+ \bar "||" \break
+}
